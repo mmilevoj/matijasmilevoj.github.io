@@ -1,0 +1,130 @@
+body{
+     margin: 0;
+     background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+     background-size: cover;
+     color:white;
+     font-family: 'Yusei Magic', sans-serif;
+}
+/*MAIN PAGE*/
+.avatar img{
+    vertical-align:center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid white 3px;
+    margin-top: 35px;
+}
+
+header{
+    text-align:center;
+    padding:25px;
+    width: 20%;
+    margin:0 auto;
+}
+
+main{
+    font-size: 1.5em;
+    width:20%;
+    padding:25px;
+    display: flex;
+    margin:0 auto;
+    text-align: center;
+}
+.work{
+    padding:5px;
+}
+.about{
+    padding:5px;
+
+}
+.contact{
+    padding:5px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/*HOVER EFFECTS*/
+.avatar:hover, h1:hover, h2:hover, .about:hover, .work:hover, .contact:hover, footer:hover, h3:hover{
+    transform: scale(1.2);
+}
+/*ABOUT ME PAGE*/
+.columns{   
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.column1{
+    text-align: center;
+    margin: 50px;
+}
+
+.column2{
+    text-align: center;
+    width: 50%;
+    margin:50px;
+}
+
+.animation{
+animation-duration: 0.8s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+footer{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/*CONTACT ME*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 50%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: rgb(228, 130, 3);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #ce7816;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color:none;
+  padding: 20px;
+  text-align: center;
+}
+
+
