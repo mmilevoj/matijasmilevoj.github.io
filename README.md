@@ -2,4 +2,4 @@
 
 - ovdje ce se nalaziti HTML, CSS te Javascript koji cine ovu stranicu.
 
-adresa je http://www.matijasmilevoj.github.io
+adresa je https://matijasmilevoj.github.io/index.html
