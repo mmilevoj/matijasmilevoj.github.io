@@ -8,8 +8,8 @@ body{
 /*MAIN PAGE*/
 .avatar img{
     vertical-align:center;
-    width: 200px;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
     border: solid white 3px;
     margin-top: 35px;
@@ -32,13 +32,19 @@ main{
 }
 .work{
     padding:5px;
+    max-width: 100%;
+    height: auto;
 }
 .about{
     padding:5px;
+    max-width: 100%;
+    height: auto;
 
 }
 .contact{
     padding:5px;
+    max-width: 100%;
+    height: auto;
 
 }
 
@@ -57,11 +63,15 @@ a{
   align-items: center;
   justify-content: center;
   margin-left: 100px;
+  max-width: 100%;
+  height: auto;
 }
 
 .column1{
     text-align: center;
     margin: 50px;
+    max-width: 100%;
+    height: auto;
 }
 
 .column2{
